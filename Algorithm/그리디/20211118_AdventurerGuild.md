@@ -2,47 +2,47 @@
 
 code 1
 
-     #include <iostream>
-#include <string>
-#include <vector>
-#include <algorithm>
+    #include <iostream>
+	#include <string>
+	#include <vector>
+	#include <algorithm>
 
-using namespace std;
-int N = 0;
-int ans = 0;
+	using namespace std;
+	int N = 0;
+	int ans = 0;
 
-int main(void)
-{
-	int count = 0;
-
-	vector<int> v;
-	vector<int>::iterator itr;
-
-	cin >> N;
-
-	int panic;
-
-	for (int i = 0; i < N; i++)
+	int main(void)
 	{
-		cin >> panic;
-		v.push_back(panic);
-	}
-	
-	sort(v.begin(), v.end());
+		int count = 0;
 
-	for (itr=v.begin(); itr != v.end(); itr++)
-	{
-		count++;
-		if (count >= *itr) 
+		vector<int> v;
+		vector<int>::iterator itr;
+
+		cin >> N;
+
+		int panic;
+
+		for (int i = 0; i < N; i++)
 		{
-			count = 0;
-			ans++;
+			cin >> panic;
+			v.push_back(panic);
 		}
 		
+		sort(v.begin(), v.end());
+
+		for (itr=v.begin(); itr != v.end(); itr++)
+		{
+			count++;
+			if (count >= *itr) 
+			{
+				count = 0;
+				ans++;
+			}
+			
+		}
+		
+		cout << endl << ans << endl;
+		return 0;
 	}
-	
-	cout << endl << ans << endl;
-	return 0;
-}
 
 code 3 // 정상적으로 출력
