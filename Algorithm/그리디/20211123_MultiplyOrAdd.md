@@ -6,6 +6,7 @@
 3. 그러므로, 두 수중에서 하나라도 1 이하인 경우에는 더하며, 두 수가 모두 2이상인 경우에는 곱하기를 하면 된다.
 
 CODE
+
     #include <iostream>
     #include <string>
     using namespace std;
