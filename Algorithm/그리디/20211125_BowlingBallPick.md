@@ -75,6 +75,36 @@ CODE1
 
 CODE2
 
+    #include <iostream>
+    #include <string>
+    #include <vector>
+    #include <algorithm>
+    using namespace std;
+
+    int M, N;
+    int K;
+    int arr[1000] = { 0 };
+    int ans = 0;
+
+    int main()
+    {
+        cin >> N >> M;
+        
+        for (int i = 0; i < N; i++)
+        {
+            cin >> K;
+            arr[K]++;
+        }
+
+        for (int num : arr) 
+        {
+            N -= num;
+            ans += num * N;
+        }
+
+        cout << ans;
+        
+    }
 
 # 21.11.23(화)
 *  조합 문제인줄 알고 조합으로 풀었는데, 각 무게에 해당하는 볼링공의 개수를 카운트하여 그리디으로 풀 수 있는 방법을 찾아서 공부하였다.
