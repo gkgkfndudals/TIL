@@ -11,8 +11,6 @@ CODE1
 
     #include <iostream>
     #include <string>
-    #include <vector>
-    #include <algorithm>
     using namespace std;
 
     int M, N;
