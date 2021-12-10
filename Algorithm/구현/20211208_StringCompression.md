@@ -3,6 +3,7 @@
 ### 이 문제를 풀기 위한 과정
 이 문제는 문자열의 길이가 1000 이하이기 때문에 완전탐색을 수행을 할 수 있다.
 ![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20211210_StringCompression.PNG)
+
 위 사진의 strsub의 규칙성을 보고 이중 for문을 만들어 주면 간단하게 문제를 해결할수 있다.
 1. vector에 비교할 문자열(previous)를 넣어 놓고 현재 K단위로 쪼개어진 문자열과 비교한다.
 2. 같다면 num++을 해주고, 다르다면 vector에 있는 문자열을 pop하여 문자열을 붙여준다. num > 1이면 num도 붙인다.
@@ -86,6 +87,7 @@ CODE1
 
     
 CODE2
+
 다른 사람의 풀이 코드이다. 훨씬 깔끔하고 좋아보여 공부할겸 올려본다.
 vector에 미리 문자열을 잘라서 다 넣어두고, 하나씩 빼면서 문자열을 비교하여 준다.
 
