@@ -8,6 +8,7 @@
 ![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20211210_LotationArray.png)
 
 CODE 
+
     vector<vector<int>> rotation(vector<vector<int>> key)
     {
         int N = key.size();
@@ -30,7 +31,7 @@ CODE
 
 자물쇠와 열쇠 풀이법에 대해서 정리하겠다.
 
-![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20211210_LotationArray.png)
+![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20211210_LockAndKey.png)
 
 1. (M-1)*2 + N 인 전체 2차원 배열을 만들어 준다.
 2. 열쇠를 전체 2차원 배열의 (0,0)부터 열쇠를 회전을 하면서 끼워 넣어본다.
@@ -160,3 +161,4 @@ CODE
 # 21.12.10(금)
 * 2차원 배열 회전을 꼭 외우도록 하자.
 * 이 문제에서 제일 중요한 포인트라고 생각하는 부분은 (M-1)*2+N 의 길이를 가지는 전체 2차원 배열을 만들어주는 것이라고 생각한다.
+* insert_key 함수에서 if(iIndex+i < v.size() && jIndex+j < v.size()) 을 빼먹어 인덱스 오류가 났었다. 열쇠가 전체 2차원 배열의 크기를 넘었기 때문이었다.
