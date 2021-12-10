@@ -2,6 +2,7 @@
 
 ### 이 문제를 풀기 위한 과정
 이 문제는 문자열의 길이가 1000 이하이기 때문에 완전탐색을 수행을 할 수 있다.
+
 ![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20211210_StringCompression.PNG)
 
 위 사진의 strsub의 규칙성을 보고 이중 for문을 만들어 주면 간단하게 문제를 해결할수 있다.
