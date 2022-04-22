@@ -8,6 +8,8 @@
 
 방향까지 고려한 3 차원 배열 (visited[x][y][가로 or 세로])로 방문 체크하는 방법. 로봇의 두 파트는 왼쪽, 오른쪽 혹은 위쪽 아래쪽으로 구분 할 수 가 있다. 따라서 방향까지 고려하여 두 파트 각각 좌표 방문 체크를 해주는 것.
 
+![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20220422_MoveBlocks1.png)
+![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20220422_MoveBlocks2.png)
 
 * 로봇이 1 초로 움직여 갈 수 있는 위치들
     + 4 가지 종류의 “이동” : 상, 하, 좌, 우
