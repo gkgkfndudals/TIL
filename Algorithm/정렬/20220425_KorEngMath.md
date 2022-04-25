@@ -77,7 +77,7 @@ CODE1
     }
 
 # 22.04.22(금)
-* endl을 하면 '시간초과'가 나오고 "\n"을 하면 정상통과가 되는데 왜 그러는지 찾아봤다.
+* endl을 하면 '시간초과'가 나오고 "\n"을 하면 정상통과가 되는데 왜 그러는지 찾아봤다.  
 std::endl은 출력버퍼를 비우고, \n은 프로그램이 종료되면서 커널에 의해 버퍼를 비운다.
 
 ![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20220425_KorEngMath.png)
