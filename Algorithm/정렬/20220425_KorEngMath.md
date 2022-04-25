@@ -82,5 +82,5 @@ std::endl은 출력버퍼를 비우고, \n은 프로그램이 종료되면서 �
 
 ![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20220425_KorEngMath.png)
 
-* cmp함수 매개변수 class, struct에서 주소값 & 을 붙이면 속도가 훨씬 빠른 것 을 확인하였다. 
+* cmp함수 매개변수 class, struct에서 주소값 & 을 붙이면 속도가 훨씬 빠른 것 을 확인하였다.  
 앞으로 항상 주소값 &을 붙이는 습관을 꼭 들이자!! 
