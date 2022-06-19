@@ -1,13 +1,13 @@
-# 백준 - 1로 만들기
+# 백준 - 개미 전사
 
 ### 이 문제를 풀기 위한 과정
 왼쪽부터 차례대로 식량창고를 턴다고 가정하여 점화식을 세운다.
 
 1. (i - 1)번째 식량창고를 털기로 결정한 경우 현재의 식량창고를 털 수 없다.
-![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20220619_MakeItOne2.PNG)
+![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20220619_AntWarrior1.PNG)
 
 2. (i - 2)번째 식량창고를 털기로 결정한 경우 현재의 식량창고를 털 수 있다.
-![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20220619_MakeItOne2.PNG) 
+![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20220619_AntWarrior2.PNG) 
 
 CODE1
 
