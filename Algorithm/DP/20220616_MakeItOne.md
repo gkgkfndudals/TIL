@@ -3,8 +3,11 @@
 ### 이 문제를 풀기 위한 과정
 시간 복잡도 O(N)으로 bottom-up 방식으로 for문을 사용해서 풀었다.
 
-문제에서 요구하는 내용을 점화식으로 표현하면
-![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20220619_MakeItOne1.PNG)
+문제에서 요구하는 내용을 점화식으로 표현하면  
+
+![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20220619_MakeItOne2.PNG) 
+
+![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20220619_MakeItOne1.PNG) 이 나온다.
 
 
 CODE1
@@ -58,5 +61,4 @@ CODE1
     
 
 # 22.06.16(목))
-* 처음에는 if(cnt == C)라고 코드를 작성하였는데 틀렸다고 나왔다. 하지만 곰곰히 생각을 해보니 C개보다 많이 설치할 수 있다는 것은 곧 C개도 설치할 수 있음을 의미한다는 것을 볼 수 있습니다.  
-이진탐색 알고리즘 연습하기에 좋은 문제라고 생각한다. 나중에 다시 한번 이 문제를 풀어보는 것이 좋을 것 같다.
+* DP문제는 문제를 보고 점화식만 구하면 문제를 풀 수 있는데, 아직 DP 문제를 많이 풀어보지 않아 너무 어렵다.... 꾸준히 DP문제를 풀어봐야 될 것 같다.
