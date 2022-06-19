@@ -25,7 +25,7 @@ CODE1
 
         cin >> N;
 
-        for(int i=0; i<N; i++)
+        for (int i = 0; i < N; i++)
         {
             cin >> K;
             vec.push_back(K);
@@ -39,16 +39,18 @@ CODE1
     int solution(int N, vector<int> v)
     {
         int answer = 0;
-        
+
         int dp[101];
 
         dp[0] = v[0];
         dp[1] = v[1];
 
-        for(int i=2; i<N; i++)
+        for (int i = 2; i < N; i++)
         {
-
+            dp[i] = max(dp[i - 1], dp[i - 2] + v[i]);
         }
+
+        answer = dp[N - 1];
 
         return answer;
     }
