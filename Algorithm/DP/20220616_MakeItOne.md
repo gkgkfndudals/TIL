@@ -4,7 +4,7 @@
 시간 복잡도 O(N)으로 bottom-up 방식으로 for문을 사용해서 풀었다.
 
 문제에서 요구하는 내용을 점화식으로 표현하면
-![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20220422_MoveBlocks1.png)
+![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20220619_MakeItOne1.png)
 
 
 CODE1
