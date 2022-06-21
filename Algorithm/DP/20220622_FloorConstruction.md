@@ -19,6 +19,7 @@
 따라서 dp[i] = dp[i-1] + dp[i-2]*2의 점화식이 나온다.  
 
 CODE1
+
     #include <iostream>
     #include <vector>
     using namespace std;
