@@ -19,7 +19,6 @@
 따라서 dp[i] = dp[i-1] + dp[i-2]*2의 점화식이 나온다.  
 
 CODE1
-
     #include <iostream>
     #include <vector>
     using namespace std;
@@ -34,6 +33,8 @@ CODE1
 
         int answer = solution(N);
 
+        cout << answer;
+
         return 0;
     }
 
@@ -46,14 +47,13 @@ CODE1
         dp[1] = 1;
         dp[2] = 3;
 
-        for (int i = 3; i < N; i++)
+        for (int i = 3; i < N+1; i++)
         {
-            dp[i] = (dp[i - 1] + 2 * dp[i - 2]) % 796796; //796796으로 나눠라고 문제에 제시되어있다.
+            dp[i] = (dp[i - 1] + 2 * dp[i - 2]) % 796796;
         }
 
-        return answer;
+        return dp[N];
     }
-    
 
 # 22.06.19(일)
 * 타일 DP 문제는 옛날에도 몇 번 풀어봐서 그나마 쉽게 점화식을 세울 수 있었다.
