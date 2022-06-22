@@ -1,7 +1,7 @@
 #  알고리즘 - 금광(나동빈 책)
 
 ### 이 문제를 풀기 위한 과정
-이 문제는 20220622_GoldMine(https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/DP/20220622_GoldMine.md)과 매우 유사한 문제이다.
+이 문제는 20220622_GoldMine(https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/DP/20220622_GoldMine.md) 과 매우 유사한 문제이다.
 
 1. 왼쪽 위에서 오는 경우
 2. 위에서 오는 경우
@@ -98,4 +98,4 @@ CODE1
     }
 
 # 22.06.22(수)
-* 20220622_GoldMine(https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/DP/20220622_GoldMine.md)와 똑같은 문제였다.
+* 20220622_GoldMine(https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/DP/20220622_GoldMine.md) 와 똑같은 문제였다.
