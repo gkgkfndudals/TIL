@@ -34,6 +34,13 @@ MI와 NCS를 비교한다고 해보자. 총 3가지의 경우(대각선 위, 위
 
 ![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20220713_EditDistance3.PNG)
 
+**즉 A[i] != B[j]면, 수정, 삽입, 삭제를 한 편집거리 중 최소값을 가져오면 된다.**    
+**DP[i][j] = min(DP[i-1][j] + 1, DP[i][j-1] + 1, DP[i-1][j-1] + 1)**
+
+6. 즉 정리하면 다음과 같다.  
+**비교하고자 하는 문자 A[i] == B[j]가 같으면, DP[i][j] = DP[i-1, j-1]**
+**비교하고자 하는 문자 A[i] == B[j]가 다르면, min(DP[i-1][j] + 1, DP[i][j-1] + 1, DP[i-1][j-1] + 1)**
+
 CODE1
 
     #include <iostream>
