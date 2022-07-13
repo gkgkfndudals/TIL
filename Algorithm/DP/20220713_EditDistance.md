@@ -38,8 +38,8 @@ MI와 NCS를 비교한다고 해보자. 총 3가지의 경우(대각선 위, 위
 **DP[i][j] = min(DP[i-1][j] + 1, DP[i][j-1] + 1, DP[i-1][j-1] + 1)**
 
 6. 즉 정리하면 다음과 같다.  
-<span style="color:green">비교하고자 하는 문자 A[i] == B[j]가 같으면, DP[i][j] = DP[i-1, j-1]</span>  
-<span style="color:green">비교하고자 하는 문자 A[i] == B[j]가 다르면, min(DP[i-1][j] + 1, DP[i][j-1] + 1, DP[i-1][j-1] + 1)</span>  
+<span style="color:red">비교하고자 하는 문자 A[i] == B[j]가 같으면, DP[i][j] = DP[i-1, j-1]</span>  
+<span style="color:red">비교하고자 하는 문자 A[i] == B[j]가 다르면, min(DP[i-1][j] + 1, DP[i][j-1] + 1, DP[i-1][j-1] + 1)</span>  
 
 **비교하고자 하는 문자 A[i] == B[j]가 같으면, DP[i][j] = DP[i-1, j-1]**  
 **비교하고자 하는 문자 A[i] == B[j]가 다르면, min(DP[i-1][j] + 1, DP[i][j-1] + 1, DP[i-1][j-1] + 1)**
