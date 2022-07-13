@@ -59,6 +59,7 @@ CODE1
 
         int answer = solution(A, B);
 
+        cout << answer;
     }
 
     int solution(string A, string B)
@@ -70,7 +71,7 @@ CODE1
 
         vector<vector<int>> dp;
         dp.assign(lenA, vector<int>(lenB));
-        
+
         for (int i = 0; i < lenA; i++)
         {
             dp[i][0] = i;
@@ -97,19 +98,12 @@ CODE1
             }
         }
 
+        answer = dp[lenA-1][lenB-1];
 
-        for (int i = 0; i < lenA; i++)
-        {
-            for (int j = 0; j < lenB; j++)
-            {
-                cout << dp[i][j] << " ";
-            }
-
-            cout << endl;
-        }
         return answer;
     }
 
 # 22.07.13(수)
 * 정말 정말 어려운 문제였다. 풀지 못하여 답안을 보았지만 그래도 이해가 안되어 이틀동안 고생했다.
 * 비슷한 문제로 LCS(최장 공통 문자열) 알고리즘이 있다고 하는데 풀어 볼 계획이다.
+* 백준의 15483번 최소 편집 문제랑 똑같은 문제이다.
