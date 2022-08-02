@@ -93,4 +93,4 @@ CODE1
 
 # 22.07.29(금)
 * A -> B, B - > A 로 갈 수가 없다면 성적 비교를 할 수 없다라는 부분이 중요한 포인트이다.
-* graph[i][j] != 1e9 or graph[j][i] != 1e9
+* graph[i][j] != 1e9 or graph[j][i] != 1e9  
