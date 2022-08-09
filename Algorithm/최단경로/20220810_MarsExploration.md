@@ -5,7 +5,9 @@
 따라서 N X N 크기의 맵이 주어졌을 때, 맵의 각 위치를 'node'로 보고, 상하좌우로 모든 노드가 연결되어 있다고 보면 된다. 예를 들어 위치 A와 위치 B가 서로 인접해 있다고 해보자. 이때  A -> B 로 가는 비용은 B 위치의 탐사 비용이 될 것이고, B -> A 로 가는 비용은 A 위치의 탐사 비용이 될 것이다.  
 
 ![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20220810_MarsExploration1.PNG)
-![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20220810_MarsExploration2.PNG)
+![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20220810_MarsExploration2.PNG)  
+
+![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20220810_MarsExploration3.PNG)  
 
 N의 범위 크기가 최대 125로 작다고 느낄 수 있지만, 2차원 공간이기 때문에 전체 노드의 개수는 N^2으로 10,000을 넘을 수 있다. 따라서 다익스트라 최단 경로 알고리즘을 이용해야 된다.  
 
