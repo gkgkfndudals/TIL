@@ -7,7 +7,7 @@
 ![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20220810_MarsExploration1.PNG)
 ![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20220810_MarsExploration2.PNG)  
 
-![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20220810_MarsExploration3.PNG)  
+![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20220810_MarsExploration3.PNG)   
 
 N의 범위 크기가 최대 125로 작다고 느낄 수 있지만, 2차원 공간이기 때문에 전체 노드의 개수는 N^2으로 10,000을 넘을 수 있다. 따라서 다익스트라 최단 경로 알고리즘을 이용해야 된다.  
 
