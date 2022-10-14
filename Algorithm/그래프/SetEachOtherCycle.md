@@ -73,16 +73,16 @@ CODE1
 
     void union_parent(vector<int>& parent, int a, int b)
     {
-        int p1 = find_parent(parent, a);
-        int p2 = find_parent(parent, b);
+        a = find_parent(parent, a);
+        b = find_parent(parent, b);
 
-        if (p1 < p2)
+        if (a < b)
         {
-            parent[p2] = p1;
+            parent[b] = a;
         }
         else
         {
-            parent[p1] = p2;
+            parent[a] = b;
         }
     }
 
