@@ -5,12 +5,13 @@
 
 1. 2차원 dp 행렬의 각 인덱스는 i -> i번째 물건, j -> 배낭 무게
 2. 물건을 넣을 수 없는 경우에는 dp[i-1][j]의 값을 그대로 넣습니다.
-3. 물건을 넣을 수 있는 경우에는 dp[i-1][j]의 값과 dp[i-w[i]]+v[i]의 값을 비교하여 더 큰 값을 넣습니다.
+3. 물건을 넣을 수 있는 경우에는 dp[i-1][j]의 값과 dp[i-1][j-w[i]] + v[i]의 값을 비교하여 더 큰 값을 넣습니다.
 
 이 과정을 반복했을 때 dp[N][K]의 값이 가치의 최댓값이 됩니다.
 
 ![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20221102_NomalKnapsack1.PNG)  
 
+![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20221102_NomalKnapsack2.PNG)  
 
 CODE1
 
