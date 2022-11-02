@@ -11,7 +11,7 @@
 
 ![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20221102_NomalKnapsack1.PNG)  
 
-![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20221102_NomalKnapsack2.PNG)  
+![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20221102_NomalKnapsack2.png)  
 
 CODE1
 
