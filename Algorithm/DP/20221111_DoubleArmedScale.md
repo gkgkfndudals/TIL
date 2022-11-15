@@ -10,7 +10,7 @@ i번째의 무게추를
 2. 오른쪽 저울에 올릴 것인지
 3. 아니면 아무것도 하지 않을 것인지
 총 3가지 경우에 대해서 재귀로 구하여 주면 된다.  
-
+ 
 오른쪽저울 - 왼쪽저울의 절대값으로 구슬의 무게를 구하면 된다.  
 
 ![](https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/img/img_20221111_DoubleArmedScale1.png)  
