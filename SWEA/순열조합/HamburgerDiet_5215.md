@@ -88,6 +88,8 @@ CODE1
   
 훨씬 간단하게 코드를 짤 수 있다.  
 햄버거를 배낭을 넣을때, 넣지 않았을때 2가지의 경우를 재귀해주면 된다.  
+https://github.com/gkgkfndudals/TIL/blob/master/SWEA/%EC%9E%AC%EA%B7%80/JunhwanDoubleArmScales_3234.md  
+이 문제랑 비슷하다.  
 
 CODE2
 
