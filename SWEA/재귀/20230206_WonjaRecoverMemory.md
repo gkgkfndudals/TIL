@@ -1,7 +1,8 @@
 # SWEA 1289 - 원재의 메모리 복구하기
 
 ### 이 문제를 풀기 위한 과정
-https://github.com/gkgkfndudals/TIL/blob/master/SWEA/%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/WonjaRecoverMemory_1289.md
+https://github.com/gkgkfndudals/TIL/blob/master/SWEA/%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/WonjaRecoverMemory_1289.md  
+
 옛날에는 완전탐색으로 풀었지만 이번에는 재귀로 풀어보았다.
 
 CODE1
