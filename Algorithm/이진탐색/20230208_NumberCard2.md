@@ -1,10 +1,13 @@
 # 백준 10816 - 숫자 카드2
 https://www.acmicpc.net/problem/10816
 
+**lower_bound, upper_bound 주의사항과 팁**
+https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/%EC%9D%B4%EC%A7%84%ED%83%90%EC%83%89/0_upper%2Clower%EA%B5%AC%ED%98%84%20%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD.md
+  
 ### 이 문제를 풀기 위한 과정
 이 문제는 upper_bound, lower_bound를 이용하면 쉽게 풀 수 있는 문제이다.  
 Arrays.sort의 시간복잡도는 최대 n^2인데 통과가 되긴 하였다.  
-  
+
 참고로 lower_bound는 upper_bound를 구하면 쉽게 구할 수가 있었다...
 ```java
     static int lower_bound(int target)
