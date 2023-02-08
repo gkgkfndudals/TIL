@@ -1,5 +1,5 @@
 # 백준 3040 - 백설 공주와 일곱 난쟁이
-https://www.acmicpc.net/problem/11660
+https://www.acmicpc.net/problem/3040
 
 ### 이 문제를 풀기 위한 과정
 조합 문제이다.
