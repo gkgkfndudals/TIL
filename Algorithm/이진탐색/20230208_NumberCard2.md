@@ -12,6 +12,9 @@ Arrays.sort의 시간복잡도는 최대 n^2인데 통과가 되긴 하였다.
         upper_bound(target - 1);
     }
 ```
+CODE2는 좋지 않은 구현이다. right를 행렬의 index 끝으로 하면 이진탐색이 돌지 못하여 여러 문제가 생긴다.
+ 1. upper_bound에서 arr = {10} 이고 target >= 10 값으로 들어왔을때 return right가 0으로 반환된다.
+ 2. lower_bound에서도 더 큰 값이 들어왔을 경우 index + 1 을 해줘서 넘겨줘야된다. 그런데 arr = {10} 이고 target > 10 값으로 들어왔을때 return right가 0으로 반환된다.
 
 CODE1
 ```java
@@ -122,6 +125,9 @@ CODE2
 			}
 		}
 		
+        // 더 큰 값이 들어왔을 경우 index + 1 을 해줘서 넘겨줘야된다.
+		// 최대값과 같거나 보다 작은 값이 들어오면 그냥 index를 리턴해주면 된다.
+		// 최소값 보다 더 작은 값이 들어오면 0을 리턴해주면 되므로 그냥 index를 리턴해주면된다.
 		if(arr[right] < target)
 		{
 			right++;
@@ -147,6 +153,9 @@ CODE2
 			}
 		}
 		
+        // 최대값과 같거나 더 큰 값이 들어왔을 경우 index + 1 을 해줘서 넘겨줘야된다.
+		// 최대값보다 작은 값이 들어오면 그냥 index를 리턴해주면 된다.
+		// 최소값 보다 더 작은 값이 들어오면 0을 리턴해주면 되므로 그냥 index를 리턴해주면된다.
 		if(arr[right] <= target)
 		{
 			right++;
