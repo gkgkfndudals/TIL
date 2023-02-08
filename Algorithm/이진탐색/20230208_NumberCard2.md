@@ -168,3 +168,4 @@ CODE2
 
 # 23.02.08(화)
 * upper_bound, lower_bound 주의사항에 대해서 꼭 숙지하자.
+* https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/%EC%9D%B4%EC%A7%84%ED%83%90%EC%83%89/0_upper%2Clower%EA%B5%AC%ED%98%84%20%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD.md
