@@ -2,7 +2,11 @@
 https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV141176AIwCFAYD
 
 ### 이 문제를 풀기 위한 과정
-이 문제는 재귀로 풀 수 있다.
+이 문제는 트리 문제같아 보이지만 실제적으로 BFS 문제이다.
+완전이진트리이므로 밑에의 경우들이 가능하다.
+1. 자식이 2개이면 -> 수식
+2. 자식이 0개이면 -> 숫자
+3. 자식이 1개이면 -> 유효하지 않으므로 정답에 0
 
 CODE1
 ```java
