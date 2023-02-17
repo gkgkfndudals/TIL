@@ -1,8 +1,8 @@
 # 백준 1931 - 회의실 배정
 https://www.acmicpc.net/problem/1931
-
+  
 ### 이 문제를 풀기 위한 과정
-그리디의 Activity-selection 활동 선택 문제로 유명한 문제이다. 
+그리디의 Activity-selection 활동 선택 문제로 유명한 문제이다.
 
 CODE1
 ```java
@@ -62,8 +62,8 @@ public class Main {
 	}
 
 }
-
 ```
+
 
 # 23.02.17(금)
 * 
