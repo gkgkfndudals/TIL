@@ -1,4 +1,4 @@
-# 백준 1828 - 냉장고
+# 정보올림피아드 1828 - 냉장고
 http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&code=1828&sca=3050
 
 ### 이 문제를 풀기 위한 과정
@@ -6,7 +6,7 @@ http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&code=1828&sca=3050
 https://github.com/gkgkfndudals/TIL/blob/master/Algorithm/%EA%B7%B8%EB%A6%AC%EB%94%94/20230217_MeetingRoomAssignment.md
 이 문제랑 상당히 비슷하다. 
 
-다른점은 정렬된 list에서 전리스트의 끝 < 다음 리스트 처음 이면, 전 끝값을 다음 리스트 끝값으로 갱신해준다. 
+다른점은 정렬된 list에서 전리스트의 끝 < 다음 리스트 처음 이면, 전 끝값을 다음 리스트 끝값으로 갱신해준다.  
 => p.y < list.get(i).x 이면  p.y = list.get(i).y 으로 갱신해준다.
 
 CODE1
